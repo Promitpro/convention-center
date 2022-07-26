@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/2328060d7f.js" crossorigin="anonymous"></script>
+    <title>Bootstrap Responsive</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">          
+            <div class="container-fluid p-4 d-flex justify-content-between">
+                <div class="w-50 ms-5 ps-5 w-75">
+                    <h5 class="fw-bolder">Abacus Convention Center</h5>
+                </div>
+              
+                <div class="collapse navbar-collapse w-50 ms-5 ps-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-1">
+                        <a class="nav-link pe-2 active fw-semibold" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link active fw-semibold" aria-current="page" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link active fw-semibold" aria-current="page" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fw-semibold" aria-current="page" href="#">Subscribe</a>
+                    </li>
+                    </ul>  
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+    <main>
+        <section class="mb-5">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="bg-light px-3" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="bg-light px-3" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" class="bg-light px-3" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" class="bg-light px-3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="images/banner.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block lh-1">
+                      <p class="fs-1 fw-bolder text-light">The perfect venue for your</p>
+                      <p class="fs-1 fw-bolder text-light">next event</p>
+                      <p class=" text-light">Amet minim mollit non deserunt ullamco est sit aliqua</p>
+                      <p class=" text-light">dolor do amet sint. Velit officia consequat duis enim velit</p>
+                      <button class="bg-light text-primary btn fw-bold px-4 py-2 mb-3">Book now</button>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="container my-5 py-5 ">
+            <div class="d-flex">
+                <div class="w-50">
+                    <img src="images/wedding.png" alt="">
+                </div>
+                <div class="w-50 align-items-center mt-4 pt-5 ms-5">
+                    <h1 class="fw-bold pb-2">Every moment is Precious</h1>
+                    <p class="fw-bold pb-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <button class="bg-primary text-light fw-bold border bg-opacity-75 px-4 py-2">Explore our album<i class="fa-solid fa-arrow-right ps-3"></i></button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h1 class="fw-bold text-center mb-5 pb-5">Our Packages</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="card col-3 col-sm-12" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                <div class="card col-3 col-sm-12" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                <div class="card col-3 col-sm-12" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                <div class="card col-3 col-sm-12" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="Bootstrap/bootstrap.min.js"></script>
+</body>
+</html>
